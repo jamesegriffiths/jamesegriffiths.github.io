@@ -1,0 +1,606 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+if (screen.width <= 699) {
+document.location = "teaching_mob.html";
+}
+
+$(document).ready(function(){
+$(".link").click(function()
+{
+if($('#'+$(this).attr('name')).is(':visible')){} 
+else{
+ $('div#container div').hide("slide");
+    $('#'+$(this).attr('name')).show("slide");}   
+});
+$(".fold").click(function()
+{
+if($(this).next(".unfold").is(':visible')){ $(".unfold").hide("slide");}
+else{
+	$('.unfold').hide("slide");
+	$(this).next(".unfold").show("slide");}
+});
+});
+</script>
+
+<style>
+#container{width:75%; height:inherit; margin:0 auto; padding:2px; background-color:#ECECEA; border-radius:25px}
+a.sup {text-decoration:none; color:#484847; cursor:pointer}
+a:hover {color:#007f80}
+p {text-align:justify}
+p.fold {cursor:pointer; font-size:18pt; font-weight: bold}
+p.ref {margin-left:.5in; text-indent:-.5in}
+p.ex {text-indent:30px; font-style:italic}
+ul {list-style-type: circle}
+ul.disc {list-style-type: disc}
+ul.disc2 li{list-style-type: disc; padding: 5px}
+td, th {vertical-align: top}
+.img-rounded {border-radius: 25px}
+.unfold {display:none}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">	
+<meta name="description" content="James Griffiths, Linguist, University of Konstanz">
+<title>James Griffiths - Linguist - University of Konstanz</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<body style="background-color:#74AFAD; color:#484847; font-family: 'Roboto', sans-serif;">
+<div id="container">
+<table style="margin-top: 10px">
+	<tr>
+		<td width="4%"></td>
+		<td><img src="ellipsiscrow.png" height="30%" width="45%"></td>
+	</tr>
+</table>
+
+<table height="40" cellpadding="2" width="95%" style="margin-top: 10px" align="center">
+	<tr>
+		<td style="border-top: 1px solid #484847; border-bottom: 1px solid #484847">
+			<table width="95%" align="center">
+				<tr>
+					<td width="9%"><a class="link" name='general' style="cursor:pointer">General</a></td>
+					<td width="9%"><a class='link' name='syllabus' style="cursor:pointer">Syllabus</a></td>
+					<td width="10%"><a class='link' name='bibliography' style="cursor:pointer">Bibliography</a></td>
+					<td width="67%" style="text-align:right"><a class="sup" href="../index.html" style="cursor:pointer; ">Homepage</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<div id="general">
+<table height="50" width="90%" align="center" style="margin-top: 1px; border:0">
+	<tr>
+		<td><font size="5pt"><br><b>Syntax III: Topics in Ellipsis</b></font></td>
+	</tr>
+	<tr>
+		<td width="50%"><br><b>Instructor:</b><br>
+		Dr. James Griffiths<br>
+		Room Y225, Zukunftskolleg<br>
+		james.griffiths@uni-konstanz.de<br>
+		Office hours: Wednesday afternoon, by appointment.</td>
+		<td width="50%" style="text-align:right"><br><b>Lectures</b><br>
+		Tuesday 11:45 to 13:15<br>
+		Room G307<br></td>
+	</tr>
+</table>	
+<table height="50" width="90%" align="center" style="margin-top: 1px; border:0">
+	<tr>	
+		<td>
+		<ul>
+			<li>
+			<p class="fold"><a>Course description</a></p>
+			<div class="unfold">
+			<p>If speakers wish to avoid using redundant words, they can. 
+			This phenomenon of ellipsis, which was illustrated in the previous sentence (some words are “missing” after <i>can</i>), 
+			has vexed generative linguists for more than 50 years. Attempts to explain the distribution of – and the mechanics behind –  
+			ellipsis have been an important driving force behind the evolution of generative linguistic frameworks, and <i>ellipsology</i> 
+			(to coin a phrase) remains one of the most innovative subfields in linguistics today. 
+			Ellipsis is therefore a highly useful vector for familiarising students with a varied literature (ranging from the 1970s to 2016) 
+			in which the methods of generative theorising are extremely well exemplified. 
+			During the course, students will practice critiquing this literature via peer-lead seminars and will 
+			eventually submit an essay on ellipsis in which an original research contribution is encouraged.</p><br>
+			</div>
+			</li>
+		
+			<li>
+			<p class="fold"><a>Goals</a></p>
+			<div class="unfold">
+			<p><ul class="disc">
+			<li>To gain a detailed knowledge of the main types of ellipsis constructions observed in natural language.</li>
+			<li>To learn how arguments are constructed and supported in successful generative theorising.</li>
+			<li>To develop skills in reading the contemporary syntactic literature.</li>
+			<li>To improve academic researching, presenting, and writing skills.</li> 
+			</ul></p><br>
+			</div>
+			</li>
+			
+			<li>
+			<p class="fold"><a>Assessment</a></p>
+			<div class="unfold">
+			
+			<ul class="disc">
+			<li>10% = Attendence and contribution to seminar discussions</li>
+			<li>20% = Presentation of a weekly reading</li>
+			<li>20% = Presentation of your final essay</li>
+			<li>50% = Final essay</li>
+			</ul><p>
+			<br>
+			<b>Attendance and seminar contributions</b><br>
+			The small amount of time allotted to seminars on this course (1.5 hours per week) dictates that seminars will usually involve summarising/synthesising the assigned weekly reading. 
+			Consequently, seminars provide our only opportunity to discuss as a group aspects of the literature that students find confusing, unconvincing, etc. 
+			Please be prepared to ask questions and contribute to seminar discussions. 
+			To ensure that our seminar time is productively spent, I urge students to <b>email me one or two questions each</b> about the reading assigned for that week. 
+			If you do decide to email, please send your email to me <b>before 17:00 on Sunday</b>, so that I have time to incorporate your questions into the upcoming Tuesday seminar. 
+			Please note that emailing questions is not obligatory, only very useful (to help me quantify students’ level of engagement with the literature, to streamline seminar discussions, etc.).
+			<br><br>
+			<b>Presentation of reading</b><br>
+			Students will present a summary of an assigned reading. Students should extract and replicate in a short, bullet-pointed manner the contents of the paper. 
+			Running commentary and critique of the paper that is being summarised is encouraged. 
+			Presentations should be ~30 minutes long (minimum 25 minutes; maximum 40 minutes) and are informal in register. 
+			Handouts must be provided. Presentations will occur in groups. The schedule for presentations is available [<a class="sup" href="reading_presentation_schedule.pdf" target="_blank"><b>here</b></a>]. 
+			If group presentations are assigned, each member of the group will be given an individual grade. Each member of the group must speak. 
+			These presentations begin in week 3 and run until the Christmas break (or perhaps longer, depending upon numbers).
+			<br><br>
+			<b>Presentation of final essay</b><br>
+			In the final seminar (and maybe the (ante)penultimate seminar too), students will present a summary of their final essay. 
+			This assessment aims to replicate the environment of an academic conference. 
+			Students will prepare and present a maximally 15-minute-long slideshow of their final paper in a formal manner (using MS PowerPoint, Apple Keynote, LaTeX Beamer, Prezi, or any other presentation software) 
+			and will spend 5 minutes after their slideshow fielding questions from the audience. 
+			The schedule for presentations is available [<a class="sup" href="Final_presentation_schedule.pdf" target="_blank"><b>here</b></a>].
+			<br><br>
+			<b>Final essay</b> [<i>written in English only</i>]<br>
+			Students will write an essay on a topic related to ellipsis. As a guideline, the essay should be no fewer than 15 pages (single-spaced A4, 2.5cm margins, size 12 font) and no longer than 25 pages (approx. 7000-8000 words). 
+			Students are free to research any ellipsis-related topic they wish. However, some recommendations are provided in the <i>bibliography</i> section [<a class='link' name='bibliography' style="cursor:pointer">here</a>].
+			<br><br>
+			Students must submit an outline of their final essay on <b>24.01.17</b>, before 17:00, by email in either docx or pdf form. 
+			This outline must include all (sub)section headings (e.g. §1. Introduction, §2. Previous studies, etc.) and a brief summary of the intended contents of each (sub)section. 
+			Although it will not be graded, students are still obligated to submit an essay outline.
+			<br><br>
+			Student must submit the final version of their essay on <b>15.03.17</b>, before 17:00, by email in either docx or pdf form.  
+			Percentage points will be deducted for lateness (the later the essay is submitted, the more points are deducted).
+			<br><br>
+			While student cooperation is otherwise encouraged, final essays must be undertaken individually. Students will be discouraged from working on very similar topics, and all essays will be subject to standard tests for plagiarism. Plagiarism, if discovered, will be dealt with in accordance with University of Konstanz’s outstanding policies.
+			<br><br>
+			Advice on how to write the final essay, plus the grading criteria, can be found [<a class="sup" href="essay_advice.pdf" target="_blank">here</a>].
+			<br><br>
+			Students must obtain an overall grade of 50% or higher to pass the course and therefore gain their credits. Here's how the final percentage translates into the Konstanz grading system:
+			<br><br>
+			<table>
+			<tr><td style="padding-right: 20px">90% or above</td><td>1</td></tr>
+			<tr><td style="padding-right: 20px">85% or above</td><td>1,3</td></tr>
+			<tr><td style="padding-right: 20px">80% or above</td><td>1,7</td></tr>
+			<tr><td style="padding-right: 20px">75% or above</td><td>2</td></tr>
+			<tr><td style="padding-right: 20px">70% or above</td><td>2,3</td></tr>
+			<tr><td style="padding-right: 20px">65% or above</td><td>2,7</td></tr>
+			<tr><td style="padding-right: 20px">60% or above</td><td>3</td></tr>
+			<tr><td style="padding-right: 20px">57% or above</td><td>3,3</td></tr>
+			<tr><td style="padding-right: 20px">53.5% or above</td><td>3,7</td></tr>
+			<tr><td style="padding-right: 20px">50% or above</td><td>4</td></tr>
+			<tr><td style="padding-right: 20px">49% or below</td><td>5</td></tr>
+			</table>
+			</p>
+			</div>
+			</li>
+
+			<li>
+			<p class="fold"><a>Policies</a></p>
+			<div class="unfold">
+			<p>
+			This class is meant to be stimulating, not overwhelming. So if you need help, please ask for it! Office-hours appointments can be made for any reason: to discuss material or requirements that are unclear, to discuss aspects of the literature that you find confusing, to discuss the progress (or lack of it) of your final paper. Although my official office hours are on Wednesday afternoon, I am open to making appointments for other times during the week. You can email me to arrange an appointment, or ask me in person straight after the seminar on Tuesday.
+			<br><br>I will endeavour to respond to your email within two working days, and to inform you of grades within two weeks of being assessed. Please be patient!
+			<br><br>If you wish to bring your laptop to class, please <b>don’t</b> use it for making notes. Aside from competing with me for your attention, I find the sound of students typing rather distracting.</p>
+			</div>
+			</li>
+		</ul>
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id="syllabus" style="display:none;">
+<table height="50" cellpadding="5" width="90%" align="center" style="margin-top: 10px"><td><p>The course syllabus, which is provided below, is also available as a [<a class="sup" href="syllabus.pdf" target="_blank">pdf file</a>].</p></td></table>
+<table height="50" cellpadding="5" width="90%" align="center" style="font-size: 10pt; margin-top: 15px">
+	<tr>
+		<td width="8%"><b>Date</b></td>
+		<td width="18%"><b>Topic</b></td>
+		<td width="64%"><b>Readings</b></td>
+		<td width="10%"><b>Deadline</b></td>
+	</tr>
+	<tr>
+		<td><a class="sup" href="lecture1.pdf" target="_blank">25.10.16</a></td>
+		<td>Practical information,<br>Introduction to ellipsis</td>
+		<td></td>
+		<td></td>
+	</tr>
+	</tr>
+	<tr><td colspan="4"><br>Public holiday<br><br></td></tr>
+	<tr>
+	<tr>
+		<td rowspan="2"><a class="sup" href="lecture2.pdf" target="_blank">08.11.16</a></td>
+		<td rowspan="2"><b>Overview</b><br>Structure in ellipses,<br>Types of anaphora</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Merchant, J. <a class="sup" href="http://home.uchicago.edu/merchant/pubs/ellipsis.revised.pdf" target="_blank"></b>Ellipsis: A survey of analytical approaches</a>. To appear in J. van Craenenbroeck & T. Temmerman (eds.), <i>The Oxford Handbook of Ellipsis</i>. OUP. <font color="green">[Focus on §1-4]</font>. </td>
+	</tr>
+	<tr>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Hankamer, J. & I. Sag</b>. 1976. <a class="sup" href="http://babel.ucsc.edu/~hank/114/hankamer-sag-76.pdf" target="_blank">Deep and surface anaphora</a>. <i>Linguistic Inquiry</i> 7(3): 391-426.</td>
+	</tr>
+	
+	<tr>
+		<td rowspan="2"><a class="sup" href="lecture3.pdf" target="_blank">15.11.16</a></td>
+		<td rowspan="2"><b>Clausal ellipsis</b><br>Sluicing;<br>Preposition stranding and cleft sources</td>
+		<td style="text-align:justify; ; padding-left: 3%; text-indent:-3%"><b>Merchant, J.</b> 2006. <a class="sup" href="Merchant_2006_Sluicing.pdf" target="_blank">Sluicing</a>. In M. Everaert & H. van Riemsdijk (eds.), <i>The Syntax Companion</i>.  Blackwell: London, 269-289. <font color="green">[skip §4.4]</font><br vspace="30pt"></td>
+	</tr>
+	<tr>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>van Craenenbroeck, J.</b> 2010. <a class="sup" href="http://static1.squarespace.com/static/5217e223e4b090faa01f8f2d/t/5253248fe4b0e4152af3b8e3/1381180559948/printed+version+lingua+paper.pdf" target="_blank">Invisible Last Resort: A note on clefts as the underlying source for sluicing</a>. <i>Lingua</i> 120(7): 1714-1726.</td>
+		<td style="padding-left:15pt"><a class="sup" href="Pres_1.pdf" target="_blank">Pres1</a></td>
+	</tr>
+	
+	<tr>
+		<td rowspan="2"><a class="sup" href="lecture4.pdf" target="_blank">22.11.16</a></td>
+		<td rowspan="2">Fragments</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Merchant, J.</b> 2004. <a class="sup" href="http://home.uchicago.edu/merchant/pubs/fragments.pdf" target="_blank">Fragments and ellipsis</a>.<i>Linguistics & Philosophy</i> 27(6): 661-738.<br> 
+		<td style="padding-left: 15pt">Pres2[<a class="sup" href="Pres_2a.pptx" target="_blank">a</a>][<a class="sup" href="Pres_2b.pptx" target="_blank">b</a>]</td>								
+	</tr>
+	<tr>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><font color="blue">Optional:</font> <b>Jacobson, P.</b> 2016. <a class="sup" href="https://muse.jhu.edu/article/621187" target="_blank">The short answer: Implications for direct compositionality (and vice versa)</a>. <i>Language</i> 92(2): 331-375. </td>
+	</tr>
+	
+	<tr>
+		<td><a class="sup" href="lecture5.pdf" target="_blank">29.11.16</a></td>
+		<td>Island repair and contrastivity in clausal ellipsis</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Griffiths, J. & A. Lipták.</b> 2014. <a class="sup" href="Griffiths_Liptak_2014_Contrast.pdf" target="_blank">Contrast and island sensitivity in clausal ellipsis</a>. <i>Syntax</i> 17(3): 189-234.</td>
+		<td style="padding-left: 15pt"><a class="sup" href="Pres_3.pdf" target="_blank">Pres3</a><br></td>
+	</tr>
+	
+	<tr>
+		<td><a class="sup" href="lecture6.pdf" target="_blank">06.12.16</a></td>
+		<td><b>Ellipsis identity</b></td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Merchant, J. <a class="sup" href="http://home.uchicago.edu/merchant/pubs/ellipsis.revised.pdf" target="_blank"></b>Ellipsis: A survey of analytical approaches</a>. To appear in J. van Craenenbroeck & T. Temmerman (eds.), <i>The Oxford Handbook of Ellipsis</i>. OUP. <font color="green">[§6]</font></td>
+	</tr>
+
+	<tr>
+		<td><a class="sup" href="lecture7.pdf" target="_blank">13.12.16</a></td>
+		<td><b>Nominal Ellipsis</b></td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Saab, A.</b> <a class="sup" href="http://ling.auf.net/lingbuzz/002216" target="_blank">Nominal Ellipsis</a>. To appear in J. van Craenenbroeck & T. Temmerman (eds.) <i>The Oxford Handbook of Ellipsis</i>. OUP. </td>
+		<td style="padding-left: 15pt"><a class="sup" href="Pres_4.pdf" target="_blank">Pres4</a><br></td>
+	</tr>
+	
+	<tr>
+		<td><a class="sup" href="lecture8.pdf" target="_blank">20.12.17</a></td>
+		<td><b>Verbal ellipsis</b><br>Overview of VP-ellipsis,<br>MCE & licensing</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Aelbrecht, L. 2007.</b> <a class="sup" href="http://www.cssp.cnrs.fr/eiss7/aelbrecht-eiss7.pdf" target="_blank">Dutch modal complement ellipsis</a>. In O. Bonami & P. Cabredo Hofherr (eds.), <i>Empirical Issues in Syntax and Semantics 7</i>, 7-33. </td>
+		<td style="padding-left: 15pt"><a class="sup" href="Pres_5.pdf" target="_blank">Pres5</a></td>
+	</tr>
+	
+	<tr><td colspan="4"><br>Christmas break<br><br></td></tr>
+	
+	<tr>
+		<td rowspan="2"><a class="sup" href="lecture9.pdf" target="_blank">10.01.17</a></td>
+		<td rowspan="2">Pseudogapping</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Lasnik, H. 1999.</b> <a class="sup" href="http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/lsa/lasnik99.pdf" target="_blank">Pseudogapping puzzles</a>. In S. Lappin & E. Benmamoun (eds.), <i>Fragments: Studies in ellipsis and gapping.</i> OUP, 141-147. <font color="green">[Skip §6.3 & §6.6]</font></td>
+		<td style="padding-left: 15pt">Pres6</td>
+	</tr>
+	<tr>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Takahashi, S.</b> 2004. <a class="sup" href="http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/lsa/takahashi04.pdf" target="_blank">Pseudogapping and Cyclic Linearization</a>. In K. Moulton & M. Wolf (eds.), <i>Proceedings of the North East Linguistics Society 34</i>. Amherst: GLSA Publications, 571-585.</td> 
+	</tr>
+	
+	<tr>
+		<td rowspan="2"><a class="sup" href="lecture10.pdf" target="_blank">17.01.17</a></td>
+		<td rowspan="2">Gapping</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Johnson, K.</b> 2009. <a class="sup" href="http://people.umass.edu/kbj/homepage/Content/GapnotEllipsis.pdf" target="_blank">Gapping Is Not (VP-) Ellipsis</a>. <i>Linguistic Inquiry</i> 40(2): 289-328. <font color="green">[Focus on §1-5]</font></td>
+		<td style="padding-left: 15pt">Pres7<br><font color="green">(&sect1-4)</font></td>
+	</tr>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><font color="blue">Optional:</font> <b>Toosarvandani, M.</b> 2013. <a class="sup" href="http://ling.auf.net/lingbuzz/001628" target="_blank"><i>Gapping is low coordination (plus VP-ellipsis): A reply to Johnson</i></a>. Manuscript, MIT.</td>
+	<tr>
+	</tr>
+	
+	<tr>
+		<td><a class="sup" href="lecture11.pdf" target="_blank">24.01.17</a></td>
+		<td>Verb-stranding VP-ellipsis</td>
+		<td style="text-align:justify; padding-left: 3%; text-indent:-3%"><b>Goldberg, L.</b> 2005. <i>Verb-Stranding VP Ellipsis: A Cross-Linguistic Study</i>. Doctoral dissertation, McGill University. [<a class="sup" href="http://ling.uni-konstanz.de/pages/home/griffiths/teaching/Goldberg-part1.pdf" target="_blank">part1</a>, <a class="sup" href="http://ling.uni-konstanz.de/pages/home/griffiths/teaching/Goldberg-part2.pdf" target="_blank">part 2</a>]<font color="green"> [Focus on chpt 1, §1; chpt 2, §0-5; chpt 3, §3; chpt 4, §0-2]</font></td>
+		<td style="padding-left: 15pt">Final essay outline<br><font color="red">17:00</font></td>
+	</tr>
+	<tr>
+		<td>31.01.17</td>
+		<td></td>
+		<td></td>
+		<td style="padding-left: 15pt">Final essay presentations</td>
+	</tr>
+	<tr>
+		<td>07.02.17</td>
+		<td></td>
+		<td></td>
+		<td style="padding-left: 15pt">Final essay presentations</td>
+	</tr>
+	<tr>
+		<td>14.02.17</td>
+		<td></td>
+		<td></td>
+		<td style="padding-left: 15pt">Final essay presentations</td>
+	</tr>
+	<tr>
+		<td>15.03.17</td>
+		<td></td>
+		<td></td>
+		<td style="padding-left: 15pt">Final essay<br><font color="red">17:00</font></td>
+	</tr>
+</table>
+</div>
+
+<!-- <div id="bibliography" style="display:none;">
+<table height="50" cellpadding="10" width="90%" align="center" style="margin-top: 10px; border:0">
+	<tr>
+		<td style="border:0; text-align:justify">
+		This bibliography is intended to help students choose, and get a foot-hold in the literature on, the topic that they will discuss in their final essay. From the perspective of a native German speaker who wishes to undertake research on her mother tongue, those topics accompanied by an asterisks may be of particular interest. The pdf version of the list is available [<a class="sup" href="bibliography.pdf" target="_blank">here</a>].
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<ul>
+			<li>
+			<p class="fold"><a>Antecedent contained deletion</a></p>
+			<div class="unfold">
+				<ul class="disc2" >
+				<li>Heim, I. 1997. Predicates or formulas? Evidence from ellipsis. In A. Lawson (ed.), <i>Proceedings of Semantics and Linguistic Theory 7</i>, 197-221.</li>
+				<li>Fox, D. 2002. Antecedent contained deletion and the copy theory of movement. <i>Linguistic Inquiry</i> 33: 63-96.</li>
+				<li>Kennedy, C. 2004. <a class="sup" href="http://semantics.uchicago.edu/kennedy/docs/ace-revisited.pdf" target="_blank"><i>Argument contained ellipsis revisited</i></a>. Manuscript, University of Chicago.</li>
+				<li>Kennedy, C. 2014. Predicates and Formulas: Evidence from Ellipsis. In L. Crnic & U. Sauerland (eds.), <i>The Art and Craft of Semantics: A Festschrift for Irene Heim</i> (vol. 1). Cambridge: MIT Working Papers in Linguistics.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+	
+		<ul>
+			<li>
+			<p class="fold"><a>Comparative deletion*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Kennedy, C. 2002. Comparative Deletion and Optimality in Syntax. <i>Natural Language and Linguistic Theory</i> 20: 553-621.</li>
+				<li>Merchant, J. 2009. Phrasal and clausal comparatives in Greek and the abstractness of syntax. <i>Journal of Greek Linguistics</i> 9: 134-164.</li>
+				<li>Lindenbergh, C. 2016. <a class="sup" href="http://let.webhosting.rug.nl/~lindenbergh/pdfs/lin-pre-review-ownstyle.pdf" target="_blank">Phrasal and clausal comparative in Dutch</a>. <i>Linguistics in the Netherlands</i> 33: 70-88.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+	
+		<ul>
+			<li>
+			<p class="fold"><a>Dislocation as ellipsis*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>D. Ott. 2014. An ellipsis approach to Contrastive Left-dislocation. <i>Linguistic Inquiry</i> 45: 269-303.</li>
+				<li>D. Ott & M. de Vries. 2016. Right-dislocation as deletion. <i>Natural Language & Linguistic Theory</i> 34: 641-690.</li>
+				<li>Den Dikken, M. & B. Surányi. <a class="sup" href="http://ling.uni-konstanz.de/pages/home/griffiths/teaching/DD&B_to_appear.pdf" target="_blank">Contrasting Contrastive Left Dislocation Explications</a>. To appear in <i>Linguistic Inquiry</i>.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Ellipsis as an anaphor*</a></p>
+			<div class="unfold">
+			Is ellipsis always a surface anaphor? Is the distinction between surface and deep anaphora correct?<br><br>
+				<ul class="disc2">
+				<li>Hankamer, J. & I. Sag. 1976. Deep and surface anaphora. <i>Linguistic Inquiry</i> 7: 391-426. </li>
+				<li>Schachter, P. 1977. Does she or doesn’t she? <i>Linguistic Inquiry</i> 8: 763–767.</li>
+				<li>Schachter, P. 1978. English propredicates. <i>Linguistic Analysis</i> 4: 187–224.</li>
+				<li>Sag, I. & J. Hankamer. 1984. Towards a theory of anaphoric processing. <i>Linguistics and Philosophy</i> 7: 325–345.</li>
+				<li>Stainton, R. 2006. <i>Words and thoughts: Subsentences, ellipsis, and the philosophy of language</i>. Oxford: Oxford University Press.</li>
+				<li>Merchant, J. 2010. Three kinds of ellipsis. In F. Recanati, I. Stojanovic & N. Villanueva (eds.), <i>Context-Dependence, Perspective, and Relativity</i>. Berlin: Walter de Gruyter, 141-192.</li>
+				<li>Bentzen, K., J. Merchant & P. Svenonius. 2013. Deep properties of surface pronouns: pronominal predicate anaphors in Norwegian and German. <i>Journal of Comparative Germanic Linguistics</i> 16: 97-125</li>
+				<li>Miller, P. & G. Pullum. 2014. Exophoric VP Ellipsis. In P. Hofmeister & E. Norcliffe (eds.), <i>The Core and the Periphery: Data-Driven Perspectives on Syntax Inspired by Ivan A. Sag</i>. Stanford: CSLI Publications, 5-32.</li>
+				<li>Baltin, M. 2012. Deletion versus pro-forms: An overly simplistic dichotomy? <i>>Natural Language and Linguistic Theory</i> 30: 381–423.</li>
+				<li>Thompson, A. 2014. <i>Beyond deep and surface: explorations in the typology of anaphora</i>. Doctoral dissertation, University of California, Santa Cruz.</li>
+				<li>Bruening, B. 2016. <a class="sup" href="http://udel.edu/~bruening/downloads.html" target="_blank"><i>Passive Do So</i></a>. Ms., University of Delaware.
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Gapping*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Hartmann, K. 2000. <i>Right Node Raising and gapping: Interface conditions on prosodic deletion</i>. Amsterdam: John Benjamins.</li>
+				<li>Johnson, K. 2009. Gapping Is Not (VP-) Ellipsis. <i>Linguistic Inquiry</i> 40(2): 289-328.</li>
+				<li>Toosarvandani, M. 2013. <a class="sup" href="http://ling.auf.net/lingbuzz/001628" target="_blank"><i>Gapping is low coordination (plus VP-ellipsis): A reply to Johnson</i></a>. Manuscript, MIT.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Island repair in clausal ellipsis (sluicing and fragments)*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Merchant, J. 2004. Fragments and ellipsis. 2004. <i>Linguistics and Philosophy</i> 27: 661-738. </li>
+				<li>Merchant, J. 2008. Variable island repair under ellipsis. In K. Johnson (ed.), <i>Topics in ellipsis</i>. Cambridge University Press: Cambridge, 132-153.</li>
+				<li>Barros, M., Elliot, P. & G. Thoms. 2014. <a class="sup" href="ling.auf.net/lingbuzz/002100" target="_blank"><i>There is no island repair</i></a>. Manuscript, Edinburgh/UCL/Rutgers.</li>
+				<li>Griffiths, J. & A. Lipták. 2014. Contrast and island sensitivity in clausal ellipsis. <i>Syntax</i> 17: 189-234.</li>
+				<li>Abe, J. 2015. <i>The In-Situ Approach to Sluicing</i>, Linguistik Aktuell 222. Amsterdam: John Benjamins.</li>
+				<li>Abe, J. 2016. Make Short Answers Shorter: Support for the In-Situ Approach. <i>Syntax</i> 19: 223-255.</li>
+				<li>Jacobson, P. 2016. The short answer: Implications for direct compositionality (and vice versa). <i>Language</i> 92: 331-375.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>A-bar extraction from ellipsis sites</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Schuyler, T. 2001. <i>Wh-Movement out of the site of VP ellipsis</i>. MA thesis, University of California, Santa Cruz.</li>
+				<li>Merchant, J. 2008. Variable island repair under ellipsis. In: K. Johnson (ed.), <i>Topics in ellipsis</i>. Cambridge: Cambridge University Press, 132-153. (circulated in 2001)</li>
+				<li>Takahashi, S. & D. Fox. 2005. MaxElide and the Re-binding Problem. In E. Georgala & J. Howell (eds.), <i>Proceedings of Semantics and Linguistic Theory</i> 15. Ithaca: CLC Publications, 223-240.</li>
+				<li>Hartman, J. 2011. The Semantic Uniformity of Traces: Evidence from Ellipsis Parallelism. <i>Linguistic Inquiry</i> 42: 367-388.</li>
+				<li>Messick, T. & G. Thoms. 2016. Ellipsis, economy and the (non)uniformity of traces. <i>Linguistic Inquiry</i> 47: 306-332.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Model complement ellipsis*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Aelbrecht, L. 2010. <i>The syntactic licensing of ellipsis</i>. Amsterdam: John Benjamins. </li>
+				<li>Aelbrecht, L. 2007. Dutch modal complement ellipsis. In O. Bonami & P. Cabredo Hofherr (eds.), <i>Empirical Issues in Syntax and Semantics 7</i>, 7-33.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Nominal ellipsis*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Corver, N. & M. van Koppen. 2009. Let’s focus on NP-ellipsis. <i>Groninger Arbeiten zur Germanistischen Linguistik</i> 48: 3-26.</li>
+				<li>Werner, E. 2011. <i>The ellipsis of “ellipsis”. A reanalysis of “elided” noun phrase structures in German</i>. Master’s thesis, Utrecht University.</li>
+				<li>Saab, A. To appear. <a class="sup" href="http://ling.auf.net/lingbuzz/002216" target="_blank">Nominal Ellipsis</a>. In J. van Craenenbroeck & T. Temmerman (eds.), <i>The Oxford Handbook of Ellipsis</i>. Oxford: Oxford University Press.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Parsing ellipsis*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Frazier, L. 2008. Explorations in ellipsis: The grammar and processing of silence. In S. Winkler & S. Featherston (eds.), <i>Proceedings of Linguistic Evidence 2008</i>. Berlin: Mouton de Gruyter.</li>
+				<li>Frazier, L. 2013. A recycling approach to processing ellipsis. In L. Cheng & N. Corver (eds.), <i>Diagnosis in Syntax</i>. Oxford: Oxford University Press.</li>
+				<li>Merchant, J., L. Frazier, C. Clifton & T. Wescott. 2013. Fragment answers to questions: A case of inaudible syntax. In L. Goldstein (ed.), <i>Brevity</i>. Oxford: Oxford University Press.</li>
+				<li>Yoshida, M., M. Dickey & P. Sturt. 2013. Predictive processing of syntactic structure: Sluicing and ellipsis in real-time sentence processing. <i>Language and Cognitive Processes</i> 28: 272-302.</li>
+				<li>Phillips, C. & D. Parker. 2014. The psycholinguistics of ellipsis. <i>Lingua</i> 151: 78-95.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Pseudogapping</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Lasnik, H. 1999. Pseudogapping puzzles. In S. Lappin & E. Benmamoun (eds.), <i>Fragments: Studies in ellipsis and gapping</i>. Oxford: Oxford University Press, 141-147.</li>
+				<li>Baltin, M. 2003. The interaction of ellipsis and binding: Implications for the sequencing of principle A. <i>Natural Language & Linguistic Theory</i> 21: 215–246.</li>
+				<li>Takahashi, S. 2004. Pseudogapping and Cyclic Linearization. In K. Moulton & M. Wolf (eds.), <i>Proceedings of the North East Linguistics Society</i> 34. Amherst: GLSA Publications, 571-585.</li>
+				<li>Gengel, K. 2007. <i>Focus and ellipsis: A Generative analysis of pseudogapping and other elliptical structures</i>. Doctoral dissertation, University of Stuttgart.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Right node raising*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Wilder, C. 1997. Some properties of ellipsis in coordination. In A. Alexiadou & T. Hall (eds.), <i>Studies on Universal Grammar and typological variation</i>, Linguistik Aktuell 13. Amsterdam: John Benjamins, 59-107.</li>
+				<li>Féry, C. & K. Hartmann. 2005. The focus and prosodic structures of German gapping and Right Node Raising. <i>The Linguistic Review</i> 22: 66–116.</li>
+				<li>Barros, M. & L. Vicente. 2011. Right Node Raising requires both ellipsis and multidominance. In L. Friedman (ed.), <i>University of Pennsylvania Working Papers in Linguistics</i> 17, 1–19.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Swiping</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Merchant, J. 2002. Swiping in Germanic. In C. J. W Zwart & W. Abraham (eds.), <i>Studies in comparative Germanic syntax</i>. John Benjamins: Amsterdam, 295-321.</li>
+				<li>Hartman, J. & R. R. Ai. 2009. A Focus Account of Swiping. In K. Grohmann & P. Panagiotidis (eds.), <i>Selected Papers from the 2006 Cyprus Syntaxfest</i>. Newcastle-upon-Tyne: Cambridge Scholars Press, 92-122.</li>
+				<li>Radford, A. & E. Iwasaki. 2015. On swiping in English. <i>Natural Language and Linguistic Theory</i> 33: 703-744.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Telegraphese*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Barton, E. 1998. The grammar of telegraphic structures: Sentential and nonsentential derivation. <i>Journal of English Linguistics</i> 26: 37-67.</li>
+				<li>Weir, A. 2012. Left-edge deletion in English and subject omission in diaries. <i>English Language and Linguistics</i> 16: 105-129.</li>
+				<li>Weir, A. to appear. <a class="sup" href="http://folk.ntnu.no/andrewww/weir-object-drop-LV-revised.pdf" target="_blank">Object drop and article drop in reduced written register</a>. <i>Linguistic Variation</i>.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>The P-stranding generalisation*</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Stjepanovic, S. 2008. P-Stranding Under Sluicing in a Non-P-Stranding Language? <i>Linguistic Inquiry</i> 39: 179-190.</li>
+				<li>Rodrigues, C., A. Nevins, & L. Vicente. 2009. Cleaving the interactions between sluicing and P-stranding. In D.  Torck & L. Wetzels (eds.), <i>Romance Languages and Linguistic Theory 2006</i>. Amsterdam: John Benjamins., 245–270.</li>
+				<li>Kluck, M. 2015. Merchant's wrinkle: the ban on Dutch bare R-pronoun ellipsis remnants. In U. Steindl et al. (eds.), <i>Proceedings of the West Coast Conference on Formal Linguistics 32</i>. Somerville: Cascadilla Proceedings Project, 248-257.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+		<ul>
+			<li>
+			<p class="fold"><a>Verb-stranding VP ellipsis</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>McCloskey, J. 1991. Clause structure, ellipsis and proper government in Irish. <i>Lingua</i> 85. 259-302.</li>
+				<li>Goldberg, L. 2005. <i>Verb-Stranding VP Ellipsis: A Cross-Linguistic Study</i>. Doctoral dissertation, McGill University.</li>
+				<li>Gribanova, V. 2013. <i>A new argument for verb-stranding verb phrase ellipsis</i>. Linguistic Inquiry 44: 145-157.</li>
+				<li>Lipták, A. & A. Saab. 2014. No N-raising out of NPs in Spanish: ellipsis as a diagnostic of head movement. <i>Natural Language & Linguistic Theory</i> 32: 1247–1271.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		
+			<ul>
+			<li>
+			<p class="fold"><a>VP ellipsis</a></p>
+			<div class="unfold">
+				<ul class="disc2">
+				<li>Zagona, K. 1988. Proper Government of Antecedentless VPs in English and Spanish. <i>Natural Language and Linguistic Theory</i> 6: 95-128.</li>
+				<li>Lobeck, A. 1995. <i>Ellipsis: Functional Heads, Licensing and Identification</i>. Oxford: Oxford University Press.</li>
+				<li>Johnson, K. 2001. What VP ellipsis can do, what it can't, but not why. In M. Baltin & C. Collins (eds.), <i>The handbook of contemporary syntactic theory</i>. Oxford: Blackwell, 439-479.</li>
+				<li>Thoms, G. 2010. ‘Verb-floating’ and VP-ellipsis: towards a movement account of ellipsis licensing. <i>Linguistic Variation Yearbook</i> 10: 252-297. </li>
+				<li>Aelbrecht, L. & Haegeman, L. 2012. VP-ellipsis is not licensed by VP-topicalization. <i>Linguistic Inquiry</i> 34: 591-614.</li>
+				<li>Van Craenenbroeck, J. To appear. <a class="sup" href="http://jeroenvancraenenbroeck.net/publications" target="_blank">VP-ellipsis</a>. In M. Everaert & H. van Riemsdijk (eds.), <i>The Blackwell Companion to Syntax</i>. 2nd edition. Hoboken: Wiley-Blackwell.</li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+	</td>
+	</tr>
+	
+</table>
+</div> -->
+
+<p style="margin-right:30px; text-align:right; font-size:8pt">	Source of image: Sarah Munro, ellipsisetc.com<br>
+																&copy; James Griffiths 2017</p>
+</div>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40905921-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body></html>
