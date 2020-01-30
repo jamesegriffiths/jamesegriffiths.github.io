@@ -42,9 +42,9 @@ body{margin: 0; padding: 0; background-color:#FAF8F8; color:#484847; font-family
 p{text-align: left}
 p.about {font-size: 0.9em; text-align: justify}
 .name {font-size: 1.5em; width: 92%; height: 50px; line-height: 50px; white-space: nowrap; text-align: center}
-.general {padding-left: 12%; width: 25%; height: 50px; line-height: 50px; white-space: nowrap}
-.schedule {width: 25%; height: 50px; line-height: 50px; white-space: nowrap}
-.readings {width: 25%; height: 50px; line-height: 50px; white-space: nowrap}
+.general {padding-left: 12%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.schedule {width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.readings {width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
 .bibliography {width: 5%; height: 50px; line-height: 50px; white-space: nowrap}
 }
 
