@@ -60,7 +60,7 @@ body{margin: 0; padding: 0; background-color:#FAF8F8; color:#484847; font-family
 .img-rounded {border-radius: 50%; float: left; padding: 2%; height: 150px}
 .name {padding-left: 5%; font-size: 1.5em; width: 92%; height: 50px; line-height: 50px; white-space: nowrap; text-align: center}
 .general {padding-left: 12%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
-.schedule {padding-left: 5%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
-.readings {padding-left: 5%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
-.bibliography {padding-left: 5%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.schedule {width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.readings {width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.bibliography {width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
 }
