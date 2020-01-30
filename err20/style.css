@@ -53,14 +53,14 @@ p.about {font-size: 0.9em; text-align: justify}
 @media only screen and (max-width: 760px) and (orientation: landscape) {
 body{margin: 0; padding: 0; background-color:#FAF8F8; color:#484847; font-family: 'Alegreya', serif; font-size: 1em}
 #container{width:100%; height:inherit; margin:0 auto; padding:2px; background-color:#FAF8F8}
-#header{background-color: #007f80; margin: 0; width: 100%; padding: 0; color: white; height:50px; vertical-align: middle}
+#header{background-color: #007f80; margin: 0; width: 100%; padding: 0; color: white; height:100px; vertical-align: middle}
 .left {width: 94%}
 .middle{width: 50%}
 .right{width: 40%}
 .img-rounded {border-radius: 50%; float: left; padding: 2%; height: 150px}
-.name {padding-left: 5%; font-size: 1.5em; width: 35%; height: 50px; line-height: 50px; white-space: nowrap}
-.general {padding-left: 12%; width: 25%; height: 50px; line-height: 50px; white-space: nowrap}
-.schedule {width: 25%; height: 50px; line-height: 50px; white-space: nowrap}
-.readings {width: 25%; height: 50px; line-height: 50px; white-space: nowrap}
-.bibliography {width: 5%; height: 50px; line-height: 50px; white-space: nowrap}
+.name {padding-left: 5%; font-size: 1.5em; width: 92%; height: 50px; line-height: 50px; white-space: nowrap; text-align: center}
+.general {padding-left: 12%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.schedule {padding-left: 5%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.readings {padding-left: 5%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
+.bibliography {padding-left: 5%; width: 15%; height: 50px; line-height: 50px; white-space: nowrap}
 }
