@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /teaching/
+Disallow: /wedding/
+Disallow: /old/
+Disallow: /questionnaires/
+Disallow: /syntax2/
