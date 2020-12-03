@@ -4,3 +4,4 @@ Disallow: /wedding/
 Disallow: /old/
 Disallow: /questionnaires/
 Disallow: /syntax2/
+Disallow: /papers/
